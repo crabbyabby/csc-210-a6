@@ -5,7 +5,7 @@ CSC 210: Data Structures
 
 Your readme should include the following information.
 
-Your name:
+Your name: Abigail
 
 Other collaborators: 
 
@@ -14,6 +14,8 @@ Was anyone particularly helpful? Give them a shout-out here:
 ## References
 
 References used (besides JavaDoc and course materials):
+https://www.geeksforgeeks.org/java/listiterator-in-java/
+https://stackoverflow.com/questions/13013480/linkedlist-checkforcomodification-error-java 
 
 If you used AI at all for this assignment: How did you use it? What did this experience teach you?
 
