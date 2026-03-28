@@ -3,16 +3,29 @@ import java.util.ListIterator;
 
 /**
  * Program to sort cards via Insertion Sort
- * Sorting algorithm that 
+ * Sorting algorithm that takes unsorted item
+ * and sorts it into the sorted section
  * 
  * @author Abigail Lei
  * @version March 2026
  */
 public class InsertionSort {
   
+  /**
+   * Runs selection sort without recorder
+   * @param unsorted pile of cards
+   * @return beautiful sorted pile of cards
+   */
   public static CardPile sort(CardPile unsorted) {
     return sort(unsorted, null);
   }
+
+  /**
+   * Runs selection sort with recorder
+   * @param unsorted pile of cards
+   * @param record recorder for the program
+   * @return sorted pile of cards
+   */
   public static CardPile sort(CardPile unsorted, SortRecorder record) {
     
     // register the starting configuration with the recorder
@@ -58,7 +71,10 @@ public class InsertionSort {
     return sorted;
   }
 
-    public static void main(String[] args) {
+/**
+ * Running code
+ * @param args the argumments
+ */ public static void main(String[] args) {
       SortRecorder recorder = new SortRecorder();
 
       // set up the deck of cards

@@ -1,11 +1,31 @@
 import java.util.Collections;
 
+/**
+ * Class that does selection sort
+ * Find smallest item in unsorted area and
+ * put in sorted section until unsorted pile
+ * has nothing in it!
+ * 
+ * @author Abigail Lei
+ * @version March 2026
+ */
 public class SelectionSort {
   
+  /**
+   * Runs the selection sort without recorder
+   * @param unsorted pile of cards
+   * @return the beautifully sorted cardpile
+   */
   public static CardPile sort(CardPile unsorted) {
     return(sort(unsorted, null));
   }
 
+  /**
+   * Runs selection sort with recorder
+   * @param unsorted pile of cards
+   * @param record recorder for visualization
+   * @return beautifully sorted cardpile
+   */
   public static CardPile sort(CardPile unsorted, SortRecorder record) {
     
     // register the starting configuration with the recorder
@@ -43,8 +63,10 @@ public class SelectionSort {
 
     // return the sorted result here
     return sorted;
+
   }
 
+  /**Test visualization */
     public static void main(String[] args) {
       SortRecorder recorder = new SortRecorder();
 

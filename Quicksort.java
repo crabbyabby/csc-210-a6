@@ -1,11 +1,31 @@
 import java.util.Collections;
 
+/**
+ * Class for quicksort. 
+ * Choose a pivot, then sort into two piles,
+ * smaller than pivot or bigger than pivot,
+ * then combine.
+ * 
+ * @author Abigail Lei
+ * @version March 2026
+ */
 public class Quicksort {
   
+  /**
+   * Quicksort without recorder
+   * @param unsorted pile of cards
+   * @return sorted pile of cards
+   */
   public static CardPile sort(CardPile unsorted) {
     return sort(unsorted, null);
   }
 
+  /**
+   * Quicksort with recorder
+   * @param unsorted pile of cards
+   * @param record the recorder for visuals
+   * @return sorted pile of cards
+   */
   public static CardPile sort(CardPile unsorted, SortRecorder record) {
 
     if (record != null) {
@@ -69,6 +89,10 @@ public class Quicksort {
     return result;
   }
 
+  /**
+   * beautiful testing
+   * @param args more testing
+   */
   public static void main(String[] args) {
     SortRecorder recorder = new SortRecorder();
 
