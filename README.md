@@ -16,6 +16,8 @@ Was anyone particularly helpful? Give them a shout-out here:
 References used (besides JavaDoc and course materials):
 https://www.geeksforgeeks.org/java/listiterator-in-java/
 https://stackoverflow.com/questions/13013480/linkedlist-checkforcomodification-error-java 
+https://www.w3schools.com/dsa/dsa_algo_quicksort.php 
+https://www.geeksforgeeks.org/dsa/quicksort-on-singly-linked-list/ 
 
 If you used AI at all for this assignment: How did you use it? What did this experience teach you?
 
