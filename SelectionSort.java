@@ -17,7 +17,7 @@ public class SelectionSort {
    * @return the beautifully sorted cardpile
    */
   public static CardPile sort(CardPile unsorted) {
-    return(sort(unsorted, null));
+    return sort(unsorted, null);
   }
 
   /**
@@ -54,7 +54,9 @@ public class SelectionSort {
     return sorted; 
   }
 
-  /**Test visualization */
+  /**
+   * @param args arguments
+   * Test visualization */
     public static void main(String[] args) {
       SortRecorder recorder = new SortRecorder();
 

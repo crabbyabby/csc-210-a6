@@ -57,6 +57,7 @@ public class LinearSearch {
 
 /** 
  * Testing the visualization
+ * @param args arguments
  */ 
  public static void main(String[] args) {
     SortRecorder recorder = new SortRecorder();
