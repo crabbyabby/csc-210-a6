@@ -1,7 +1,16 @@
 import java.util.ArrayDeque;
 
+/**
+ * for the autograder
+ */
 public class MergeSort {
   
+  /**
+   * unwritten
+   * @param unsorted pile of cards
+   * @param record the recorder
+   * @return the sorted card pile
+   */
   public static CardPile sort(CardPile unsorted, SortRecorder record) {
     
     ArrayDeque<CardPile> queue = new ArrayDeque<CardPile>();

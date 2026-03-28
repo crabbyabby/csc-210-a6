@@ -51,19 +51,7 @@ public class SelectionSort {
       }
     }
     
-    // ***********************************************************
-    // Here is where you'll do the "work" of SelectionSort:
-    //   - Use sorted to store the "sorted portion"
-    //   - Don't forget to register the new state with the
-    //     recorder after each card is transferred:
-    //        record.next();        // tell it this is a new step
-    //        record.add(sorted);   // the sorted pile
-    //        record.add(unsorted); // the unsorted pile
-    // ***********************************************************
-
-    // return the sorted result here
-    return sorted;
-
+    return sorted; 
   }
 
   /**Test visualization */
